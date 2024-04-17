@@ -24,7 +24,7 @@ import {
   poitiers,
   middlebury,
   paris1,
-  ratp
+  ratp,
 } from "../assets/icons";
 
 export const skills = [
@@ -106,7 +106,7 @@ export const experiences = [
     company_name: "Université de Poitiers",
     icon: poitiers,
     iconBg: "#dff2ee",
-    date: "Sep 2020 - Jan 2023",
+    date: "Sept 2020 - Janv 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -119,7 +119,7 @@ export const experiences = [
     company_name: "Middlebury College",
     icon: middlebury,
     iconBg: "#7181eb",
-    date: "Jan 2023 - Jui 2023",
+    date: "Janv 2023 - Juin 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -132,7 +132,7 @@ export const experiences = [
     company_name: "Paris Panthéon Sorbonne",
     icon: paris1,
     iconBg: "#edeb7e",
-    date: "Sep 2023 - Présent",
+    date: "Sept 2023 - Présent",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -145,7 +145,7 @@ export const experiences = [
     company_name: "RATP GROUP",
     icon: ratp,
     iconBg: "#a2d2ff",
-    date: "Sep 2023 - Present",
+    date: "Sept 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
