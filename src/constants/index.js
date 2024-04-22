@@ -25,6 +25,7 @@ import {
   middlebury,
   paris1,
   ratp,
+  shop
 } from "../assets/icons";
 
 export const skills = [
@@ -108,10 +109,11 @@ export const experiences = [
     iconBg: "#dff2ee",
     date: "Sept 2020 - Janv 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Choisir les structures de données pertinentes pour un problème donné et savoir coder les algorithmes classiques sur ces structures de données",
+      "Mettre en oeuvre différents principes de programmation (impérative, fonctionnelle, objet, système) pour coder un programme informatique.",
+      "Savoir concevoir et exploiter une base de données relationnelle.",
+      "Savoir concevoir et développer un site Web dynamique.",
+      "Savoir programmer une interface homme-machine",
     ],
   },
   {
@@ -121,10 +123,10 @@ export const experiences = [
     iconBg: "#7181eb",
     date: "Janv 2023 - Juin 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développer des applications web en utilisant Next.js et d'autres technologies connexes.",
+      "Utilisation de la méthodoligie Agile pour la gestion de projet.",
+      "Communication avec des étudiants étrangers pour des projets de groupe dans une langue étrangère.",
+      "Apprentissage des structures de données et des algorithmes en Java.",
     ],
   },
   {
@@ -134,10 +136,11 @@ export const experiences = [
     iconBg: "#edeb7e",
     date: "Sept 2023 - Présent",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Approfondissement des compétences en programmation Java pour le développement logiciel.",
+      "Utilisation des principaux frameworks Java pour le développement d'applications d'entreprise (Javaspringboot).",
+      "Application des méthodes de gestion de projet pour planifier, exécuter et suivre des projets informatiques.",
+      "Acquisition de connaissances en comptabilité et gestion financière pour comprendre les aspects économiques des projets informatiques.",
+      "Développement des compétences en communication professionnelle pour travailler efficacement en équipe et communiquer avec les parties prenantes des projets.",
     ],
   },
   {
@@ -147,10 +150,11 @@ export const experiences = [
     iconBg: "#a2d2ff",
     date: "Sept 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "réalisation d’un projet de refonte de l’outil juridique (ateliers, spécifications, paramétrage, recettes...)",
+      "Participation à la rédaction des spécifications fonctionnelles et techniques.",
+      "Participation à la rédaction des cahiers de recette.",
+      "Contribuer à la conduite du changement",
+      "Modéliser des processus",
     ],
   },
 ];
@@ -175,51 +179,35 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: snapgram,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Stack Overflow Clone",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "J'ai développé un site web complet de stack overlflow clone en Next Js, Tailwind CSS grâce au cours de JavaScript Mastery.",
+    link: "https://final-overflow.vercel.app/",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Blog - Trouve Moi Un Livre",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "J'ai crée un blog pour partager des livres, ce blog est destinée pour le SEO de mon site principal en cours de consturction de recommendation de livres.",
+    link: "https://blog.trouvemoiunlivre.com/",
   },
   {
-    iconUrl: car,
+    iconUrl: shop,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "MadaAnnonce",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "J'ai codé le front de ce site de petites annonces gâce à Figma. C'est un projet avec des camarades de classes et en cours de construction. Le back est fait en Javaspringboot et la base de données est : PostgresSql.",
+    link: "https://mada-annonce.vercel.app/",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Nike Landing Page",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "J'ai codé ce landing page de Nike en utilisant Vite Js et Tailwind CSS. C'est un projet pour m'entrainer sur Tailwind.",
+    link: "https://nike-lake-seven.vercel.app/",
   },
 ];

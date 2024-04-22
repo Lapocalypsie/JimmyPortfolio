@@ -22,8 +22,8 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Etudiant en M1 MIAGE à l&apos;Université de Paris Sorbonne, je suis
-          passionné par le développement web et mobile. J&capos;e suis intéressé
+          Etudiant en L3 et accepté en M1 MIAGE à l&apos;Université de Paris Sorbonne, je suis
+          passionné par le développement web et mobile. J&apos;e suis intéressé
           par les technologies modernes et les méthodes de travail agiles.
         </p>
       </div>

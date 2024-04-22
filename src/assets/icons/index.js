@@ -34,6 +34,7 @@ import poitiers from "./poitiers.svg";
 import middlebury from "./middlebury.svg";
 import paris1 from "./paris1.svg";
 import ratp from "./ratp.svg";
+import shop from "./shop.svg";
 
 export {
   css,
@@ -71,5 +72,6 @@ export {
   poitiers,
   middlebury,
   paris1,
-  ratp
+  ratp,
+  shop
 };
