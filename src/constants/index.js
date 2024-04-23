@@ -199,7 +199,7 @@ export const projects = [
     theme: "btn-back-blue",
     name: "MadaAnnonce",
     description:
-      "J'ai codé le front de ce site de petites annonces gâce à Figma. C'est un projet avec des camarades de classes et en cours de construction. Le back est fait en Javaspringboot et la base de données est : PostgresSql.",
+      "J'ai codé le front de ce site de petites annonces grâce à Figma. C'est un projet avec des camarades de classes et en cours de construction. Le back est fait en Javaspringboot et la base de données est : PostgresSql.",
     link: "https://mada-annonce.vercel.app/",
   },
   {
