@@ -10,10 +10,8 @@ import {
   mongodb,
   nextjs,
   nodejs,
-  pricewise,
   react,
   snapgram,
-  summiz,
   tailwindcss,
   threads,
   typescript,
@@ -25,7 +23,8 @@ import {
   middlebury,
   paris1,
   ratp,
-  shop
+  shop,
+  book
 } from "../assets/icons";
 
 export const skills = [
@@ -103,34 +102,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Etudiant Licence informatique",
-    company_name: "Université de Poitiers",
-    icon: poitiers,
-    iconBg: "#dff2ee",
-    date: "Sept 2020 - Janv 2023",
-    points: [
-      "Choisir les structures de données pertinentes pour un problème donné et savoir coder les algorithmes classiques sur ces structures de données",
-      "Mettre en oeuvre différents principes de programmation (impérative, fonctionnelle, objet, système) pour coder un programme informatique.",
-      "Savoir concevoir et exploiter une base de données relationnelle.",
-      "Savoir concevoir et développer un site Web dynamique.",
-      "Savoir programmer une interface homme-machine",
-    ],
-  },
-  {
-    title: "Etudiant - Echange Universitaire",
-    company_name: "Middlebury College",
-    icon: middlebury,
-    iconBg: "#7181eb",
-    date: "Janv 2023 - Juin 2023",
-    points: [
-      "Développer des applications web en utilisant Next.js et d'autres technologies connexes.",
-      "Utilisation de la méthodoligie Agile pour la gestion de projet.",
-      "Communication avec des étudiants étrangers pour des projets de groupe dans une langue étrangère.",
-      "Apprentissage des structures de données et des algorithmes en Java.",
-    ],
-  },
-  {
-    title: "Etudiant Licence MIAGE",
+    title: "Etudiant Master MIAGE",
     company_name: "Paris Panthéon Sorbonne",
     icon: paris1,
     iconBg: "#edeb7e",
@@ -155,6 +127,33 @@ export const experiences = [
       "Participation à la rédaction des cahiers de recette.",
       "Contribuer à la conduite du changement",
       "Modéliser des processus",
+    ],
+  },
+  {
+    title: "Etudiant Licence informatique",
+    company_name: "Université de Poitiers",
+    icon: poitiers,
+    iconBg: "#dff2ee",
+    date: "Sept 2020 - Janv 2023",
+    points: [
+      "Choisir les structures de données pertinentes pour un problème donné et savoir coder les algorithmes classiques sur ces structures de données",
+      "Mettre en oeuvre différents principes de programmation (impérative, fonctionnelle, objet, système) pour coder un programme informatique.",
+      "Savoir concevoir et exploiter une base de données relationnelle.",
+      "Savoir concevoir et développer un site Web dynamique.",
+      "Savoir programmer une interface homme-machine",
+    ],
+  },
+  {
+    title: "Etudiant - Echange Universitaire",
+    company_name: "Middlebury College",
+    icon: middlebury,
+    iconBg: "#7181eb",
+    date: "Janv 2023 - Juin 2023",
+    points: [
+      "Développer des applications web en utilisant Next.js et d'autres technologies connexes.",
+      "Utilisation de la méthodoligie Agile pour la gestion de projet.",
+      "Communication avec des étudiants étrangers pour des projets de groupe dans une langue étrangère.",
+      "Apprentissage des structures de données et des algorithmes en Java.",
     ],
   },
 ];
@@ -189,10 +188,10 @@ export const projects = [
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Blog - Trouve Moi Un Livre",
+    name: "Blog - Za Gasy Ko",
     description:
-      "J'ai crée un blog pour partager des livres, ce blog est destinée pour le SEO de mon site principal en cours de consturction de recommendation de livres.",
-    link: "https://blog.trouvemoiunlivre.com/",
+      "J'ai crée un blog pour une association, Za Gasy Ko, en utilisant Next Js et Tailwind CSS et MongoDB avec un systeme d'authentification et dashboard pour les administrateurs. C'est un projet en cours de construction.",
+    link: "https://zagasyko.vercel.app/",
   },
   {
     iconUrl: shop,
@@ -210,4 +209,12 @@ export const projects = [
       "J'ai codé ce landing page de Nike en utilisant Vite Js et Tailwind CSS. C'est un projet pour m'entrainer sur Tailwind.",
     link: "https://nike-lake-seven.vercel.app/",
   },
+  {
+    iconUrl: book,
+    theme: "btn-back-yellow",
+    name: "Blog - Trouve moi un livre",
+    description:
+      "J'ai codé ce blog a partir d'un template de Tailwind UI afin de pouvoir partager mes lectures et mes découvertes.",
+    link: "https://blog-trouvemoiunlivre.vercel.app/",
+  }
 ];
