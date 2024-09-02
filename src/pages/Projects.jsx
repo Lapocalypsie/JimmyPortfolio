@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
@@ -15,8 +14,8 @@ const Projects = () => {
       </h1>
 
       <p className="text-slate-500 mt-2 leading-relaxed">
-        J&apos;ai réalisé beaucoup de projets. Mais voici celles qui me tiennent
-        le plus à coeur. J&apos;ai essayé d&apos;en mettre le plus possible en
+        J&apos;ai réalisé beaucoup de projets. Mais voici ceux qui me tiennent
+        le plus à cœur. J&apos;ai essayé d&apos;en mettre le plus possible en
         ligne afin que vous puissiez y accéder plus facilement. J&apos;espère
         que vous les apprécierez !
       </p>
@@ -25,11 +24,14 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
             <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
+              <div
+                className={`btn-back rounded-xl ${project.theme}`}
+                aria-hidden="true"
+              />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={project.iconUrl}
-                  alt="threads"
+                  alt={`Icon for ${project.name}`}
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
@@ -46,12 +48,13 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold text-blue-600"
+                  aria-label={`Discover ${project.name}`}
                 >
                   Découvrir
                 </Link>
                 <img
                   src={arrow}
-                  alt="arrow"
+                  alt="Arrow indicating more"
                   className="w-4 h-4 object-contain"
                 />
               </div>

@@ -10,11 +10,10 @@ import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
-    <section className="max-container" id="/">
+    <section className="max-container" id="about">
       <h1 className="head-text">
-        Bonjour, Je m&apos;appelle{" "}
+        Bonjour, je m&apos;appelle{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
           Jimmy
         </span>{" "}
         👋
@@ -22,23 +21,28 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Etudiant en L3 et accepté en M1 MIAGE à l&apos;Université de Paris Sorbonne, je suis
-          passionné par le développement web et mobile. Je suis intéressé
-          par les technologies modernes et les méthodes de travail agiles.
+          Étudiant en M1 MIAGE à l&apos;Université de Paris
+          Sorbonne, je suis passionné par le développement web et mobile.
+          J&apos;adore travailler avec des technologies modernes et des méthodologies
+          agiles.
         </p>
       </div>
 
       <div className="py-10 flex flex-col mt-12">
-        <h3 className="subhead-text">Mes compétences</h3>
+        <h2 className="subhead-text">Mes compétences</h2>
 
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
-            <div className="block-container w-20 h-20" key={skill.name}>
+            <div
+              className="block-container w-20 h-20"
+              key={skill.name}
+              aria-label={`Compétence: ${skill.name}`}
+            >
               <div className="btn-back rounded-xl" />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={skill.imageUrl}
-                  alt={skill.name}
+                  alt={`Icône de compétence ${skill.name}`}
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
@@ -48,12 +52,11 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Mon parcours</h3>
+        <h2 className="subhead-text">Mon parcours</h2>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            Découvrez mon parcours scolaire et professionnel ! J&apos;ai eu la
-            chance d&apos;avoir des expériences variées dans des domaines
-            différents.
+            Découvrez mon parcours scolaire et professionnel ! J&apos;ai eu la chance
+            d&apos;acquérir des expériences variées dans différents domaines.
           </p>
         </div>
 
@@ -68,14 +71,13 @@ const About = () => {
                   <div className="flex justify-center items-center w-full h-full">
                     <img
                       src={experience.icon}
-                      alt={experience.company_name}
+                      alt={`Logo de ${experience.company_name}`}
                       className="w-[60%] h-[60%] object-contain"
                     />
                   </div>
                 }
                 contentStyle={{
-                  borderBottom: "8px",
-                  borderStyle: "solid",
+                  borderBottom: "8px solid",
                   borderBottomColor: experience.iconBg,
                   boxShadow: "none",
                 }}
@@ -108,7 +110,7 @@ const About = () => {
         </div>
       </div>
 
-      <hr className="border-slate-200" />
+      <hr className="border-slate-200" aria-hidden="true" />
 
       <CTA />
     </section>
