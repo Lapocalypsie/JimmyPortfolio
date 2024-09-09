@@ -36,6 +36,7 @@ import paris1 from "./paris1.svg";
 import ratp from "./ratp.svg";
 import shop from "./shop.svg";
 import book from "./book.svg";
+import plant from "./plant.svg";
 
 export {
   css,
@@ -76,4 +77,5 @@ export {
   ratp,
   shop,
   book,
+  plant
 };

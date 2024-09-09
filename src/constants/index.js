@@ -1,8 +1,6 @@
 import {
-  car,
   contact,
   css,
-  estate,
   github,
   html,
   javascript,
@@ -24,7 +22,8 @@ import {
   paris1,
   ratp,
   shop,
-  book
+  book,
+  plant,
 } from "../assets/icons";
 
 export const skills = [
@@ -216,5 +215,13 @@ export const projects = [
     description:
       "J'ai codé ce blog a partir d'un template de Tailwind UI afin de pouvoir partager mes lectures et mes découvertes.",
     link: "https://blog-trouvemoiunlivre.vercel.app/",
-  }
+  },
+  {
+    iconUrl: plant,
+    theme: "btn-back-green",
+    name: "Le Blog d'Anthony",
+    description:
+      "J'ai réalisé ce blog pour un ami qui est conseiller bien etre doTerra afin de lui permettre de partager ses conseils et ses astuces.",
+    link: "https://anthonyvisconti.vercel.app/",
+  },
 ];
