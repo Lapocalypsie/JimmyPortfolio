@@ -25,6 +25,14 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
+        <NavLink
+          to="https://blog-jimmy-rasolosoa.vercel.app/"
+          className={({ isActive }) =>
+            isActive ? "text-blue-600" : "text-black"
+          }
+        >
+          Blog
+        </NavLink>
       </nav>
     </header>
   );
